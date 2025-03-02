@@ -1,0 +1,9 @@
+{
+  "token": "",
+  "guildId": "",
+  "clientId": "",
+  "db": { "type": "", "mongo_connection_url": "" },
+  "finishedConfiguration": false,
+  "__comment": "Only set above to true if you know what you're doing and you have setup everything.",
+  "debug": { "status": false, "__comment": "Only set above to true if you know what you're doing! This is not for the regular user & not provided in the startup questions." }
+}
