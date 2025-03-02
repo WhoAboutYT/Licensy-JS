@@ -1,7 +1,7 @@
 {
   "name": "licensy-js",
   "version": "1.0.0",
-  "description": "[![Python 3.6](https://img.shields.io/badge/Javascript-red?logo=javascript)](#)",
+  "description": "LicensyJS is a bot based off Licensy written in Python that was no longer being updated.",
   "main": "src/bootup.js",
   "scripts": {
     "start": "echo Starting up with no tests. && node src/index.js"
