@@ -73,3 +73,7 @@ I am personally not planning to implement sharding until the bot gets a bit more
 ### Using Chalk RGB
 
 Visual Studio Code has a in-built feature to select rgb. Therfore, if you do chalk.rgb(0,0,0) you can select the black square to choose your own RGB inside of the code editor itself.
+
+#### (Known Issues)
+
+- On pterodactyl Systems the Bootup questions wont show up but you can enter in questions

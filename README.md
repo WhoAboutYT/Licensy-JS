@@ -15,6 +15,7 @@ This has also been designed with users in mind. This should be easy to host and 
 ## Features:
 
 - Choice between JSON or MongoDB (JSON should be used for development only)
+  - JSON DB is marked as unstable and MongoDB should be more stable.
 - Licensing a role to users for X amount of time.
 - Quickstart Configuration Manager
 - Single Guild Use (at 10 ⭐'s will be for multi-guild-use)!

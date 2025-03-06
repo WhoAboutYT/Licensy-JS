@@ -37,7 +37,7 @@ if (!config.finishedConfiguration) {
       const guildId = await askQuestion(chalk.bold('Enter Guild ID (use developer mode) --> '));
       arrayOfAnswers.push(guildId);
 
-      const clientId = await askQuestion(chalk.bold('Enter Guild ID (use developer mode) --> '));
+      const clientId = await askQuestion(chalk.bold('Enter Client ID (use developer mode) --> '));
       arrayOfAnswers.push(clientId);
 
       let enableJsonDb = await askQuestion(chalk.bold('Enable Json Db Mode? (Could lead to data loss) --> [y/n] '));

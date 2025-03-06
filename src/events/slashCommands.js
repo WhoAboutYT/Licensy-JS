@@ -1,5 +1,5 @@
 const { Chalk } = require('chalk');
-const djs = require("discord.js");
+const djs = require('discord.js');
 const chalk = new Chalk({ level: 3 });
 const log = console.log;
 
@@ -17,7 +17,9 @@ module.exports = {
 
     if (!command) {
       console.error(`No command matching ${interaction.commandName} was found.`);
-      return;
+      setTimeout(async () => {
+        if (interaction.replied || interaction.deferred) console.error('You have a duplicate bot process running.') && process.exit(0);
+      }, 3000);
     }
 
     try {

@@ -12,5 +12,7 @@ module.exports = {
     log('-- -- -- --  --');
     log(chalk.blue('[READY]  ..  Bot Online!'));
     log(chalk.rgb(0, 183, 255)(`[READY] Bot online as ${client.user.tag}`));
+
+    require("../handlers/db");
   },
 };
