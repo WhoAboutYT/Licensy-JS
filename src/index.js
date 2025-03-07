@@ -15,6 +15,7 @@ const client = new Discord.Client({
 if (configs.debug.status) client.on('debug', console.log);
 
 client.commands = new Discord.Collection();
+client.dbSetting = configs.db.type;
 
 async function initializeBot() {
   try {

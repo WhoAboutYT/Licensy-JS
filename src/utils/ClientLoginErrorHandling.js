@@ -13,8 +13,7 @@ function log20TimesThenExit(text) {
 module.exports = error => {
   if (error.code === codes.TokenInvalid) {
     log20TimesThenExit(chalk.bgRedBright('[ERR] LoginError   |   Bad Token , refresh token from discord.com/developers and edit the config file.'));
-  } else if (error.code === codes.DisallowedIntents || error.message == 'Used disallowed intents') {
-    //! DisallowedIntents is deprecated, error.code is undefined. I'm leaving it there just because ^^^
+  } else if (error.message == 'Used disallowed intents') {
     log20TimesThenExit(chalk.bgRedBright('[ERR] LoginError   |   Disallowed intents, goto discord.com/developers under "Priveleged Gateway Intents" and check it all!!'));
   } else if (error.message == 'Used invalid intents') {
     log20TimesThenExit(
